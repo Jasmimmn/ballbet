@@ -1,0 +1,24 @@
+\\sistema de apostas fictício
+const saldoInicial = 1000; // Saldo inicial do jogador
+
+let saldoAtual = saldoInicial;
+
+function fazerAposta(valorAposta) {
+    if (valorAposta <= saldoAtual) {
+        // Simulação de cálculo de resultado aleatório
+        const resultado = Math.random() < 0.5 ? 'Vitória' : 'Derrota';
+        
+        if (resultado === 'Vitória') {
+            saldoAtual += valorAposta * 2; // Ganha o dobro da aposta
+            console.log('Você ganhou a aposta! Seu saldo é agora: $' + saldoAtual);
+        } else {
+            saldoAtual -= valorAposta; // Perde a aposta
+            console.log('Você perdeu a aposta. Seu saldo é agora: $' + saldoAtual);
+        }
+    } else {
+        console.log('Saldo insuficiente para fazer a aposta.');
+    }
+}
+
+// Exemplo de uso
+fazerAposta(100); // Faz uma aposta de $100

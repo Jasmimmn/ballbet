@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>26bet - Apostas Esportivas</title>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à 26bet - Apostas Esportivas</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Esportes</a></li>
+            <li><a href="#">Apostas ao Vivo</a></li>
+            <li><a href="#">Promoções</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Principais Jogos do Dia</h2>
+            <!-- Lista de jogos e odds -->
+        </section>
+
+        <section>
+            <h2>Faça sua Aposta</h2>
+            <!-- Formulário para fazer apostas -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 26bet - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
